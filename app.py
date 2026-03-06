@@ -5,8 +5,6 @@ from typing import Callable, Dict
 
 class Executor(App):
     
-    
-    
     KEY_BINDINGS = [
         ("q", "quit", "Quit"),
     ]
@@ -19,12 +17,12 @@ class Executor(App):
     }
     
     Header  {
-        background: rgb(200,0,0);
+        background: #ff6648;
         color: rgb(200,200,200);
     }
     
     Footer {
-        background: rgb(200,0,0);
+        background: #ff6648;
         color: rgb(200,200,200);
     }
     
